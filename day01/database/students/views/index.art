@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生档案</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="box"> <span>学生档案 </span>
+        <form action="/add" method="post">
+           <label for="">姓名: </label></br> <input class="ipn" type="text" name="name"> </br>
+           <label for="">年龄: </label></br>  <input  class="ipn" type="text" name="age"></br>
+           <label for="">性别: </label> <input type="radio" value="0" name="sex"> 男 
+           <input type="radio" value="1" name="sex"> 女</br>
+           <label for="">邮箱地址: </label></br> <input class="ipn" type="text" name="email"></br>
+           
+           <label for="">爱好: </label>
+           <input type="checkbox" value="敲代码 " name="hobbies"> 敲代码
+           <input type="checkbox" value="打球" name="hobbies"> 打球 
+           <input type="checkbox" value="睡觉" name="hobbies"> 睡觉</br>
+
+           <label for="">所属学院 :  <select class="normal" name="collage">
+               <option value="前端与移动开发">前端与移动开发</option>
+               <option value="PHP">PHP</option>
+               <option value="JAVA">JAVA</option>
+               <option value="Android">Android</option>
+               <option value="IOS">IOS</option>
+               <option value="UI设计">UI设计</option>
+               <option value="C++">C++</option>
+           </select> </label></br>
+
+           <label for="">人学日期: </label></br> <input class="ipn" type="text" name="enterDare"></br>
+            <button>提交</button>
+        </form>
+    </div>
+</body>
+</html>
